@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "578426217532",
+    "project_id": "piassadating-d9e3b",
+    "storage_bucket": "piassadating-d9e3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578426217532:android:84eb6ae4aeeb89e6d8cf39",
+        "android_client_info": {
+          "package_name": "com.piassa.date.piassa_date"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578426217532-m08uip8vfjsr21lit4gek4ds6udi4fvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.piassa.date.piassa_date",
+            "certificate_hash": "d9b556537f0a654754414d8f374cfc540e6528dd"
+          }
+        },
+        {
+          "client_id": "578426217532-olomake1sesl6ukokuthpfsb7nab5ji5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIWQmiS0oxKvCUbfHMGn3VwMC32P5jTg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578426217532-olomake1sesl6ukokuthpfsb7nab5ji5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
