@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:piassa_date/loading.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:piassa_date/screens/authentication/signin.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent,
+    systemNavigationBarColor: Colors.black,
+  ));
   runApp(MyApp());
 }
 
@@ -16,9 +22,12 @@ class MyApp extends StatelessWidget {
       title: 'Piassa Dating',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
       ),
-      home: Loading(),
+      home: AnnotatedRegion<SystemUiOverlayStyle>(
+        value: SystemUiOverlayStyle.dark,
+        child: SignIn(),
+      ),
     );
   }
 }
