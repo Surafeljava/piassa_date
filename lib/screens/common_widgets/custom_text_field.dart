@@ -20,9 +20,9 @@ TextFormField getTextField(
     style: globals.h22,
     decoration: InputDecoration(
       hintText: hint,
-      hintStyle: globals.h22,
-      labelText: label,
-      labelStyle: globals.h2,
+      hintStyle: globals.h33,
+      // labelText: label,
+      // labelStyle: globals.h2,
       prefixText: prefixText,
       prefixStyle: globals.h22,
       filled: true,

@@ -19,7 +19,7 @@ ElevatedButton getButton(
       ),
     ),
     style: ElevatedButton.styleFrom(
-      primary: active ? globals.redishDark : globals.redishLight,
+      primary: active ? globals.baseColor : globals.lightColor,
     ),
     onPressed: onClicked,
   );

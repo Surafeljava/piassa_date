@@ -60,3 +60,8 @@ const TextStyle h3Light = TextStyle(
     fontWeight: FontWeight.w300,
     letterSpacing: 0.5,
     color: baseColorLight);
+const TextStyle h33 = TextStyle(
+    fontSize: 18.0,
+    fontWeight: FontWeight.w300,
+    letterSpacing: 0.7,
+    color: baseColor);

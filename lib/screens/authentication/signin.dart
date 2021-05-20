@@ -69,6 +69,10 @@ class _SignInState extends State<SignIn> {
               Spacer(
                 flex: 3,
               ),
+              Text('Terms and Services', style: globals.h33),
+              SizedBox(
+                height: 15.0,
+              ),
             ],
           ),
         ),
